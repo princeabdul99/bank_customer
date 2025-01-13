@@ -15,4 +15,4 @@ Insights and recommendations are provided on the following key areas:
 An interractive PowerBI dashboard can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiZGIxNDQ3ZjItZmZjMS00YzQzLWEzZTYtYTkwZWU1YmY0ZWFhIiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
 
 # Data Structure & Initial Checks
-The CSV data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
+The CSV data file consist of a table with row count of 10,000 records.
