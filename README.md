@@ -12,7 +12,7 @@ Insights and recommendations are provided on the following key areas:
 - **Account Behavior:** An assessment on difference between German, French, and Spanish customers in terms of account behavior.
 - **Customers Segment :** An evaluation on What types of segments exist within the bank's customers.
 
-An interractive PowerBI dashboard can be accessed [here]()
+An interractive PowerBI dashboard can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiZGIxNDQ3ZjItZmZjMS00YzQzLWEzZTYtYTkwZWU1YmY0ZWFhIiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
 
 # Data Structure & Initial Checks
 The CSV data file consist of multiple tables: Products, Line productivity, Line downtime, Downtime factors with a row count of 94 records.
