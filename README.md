@@ -99,6 +99,9 @@ Below is the overview page from the Power BI dashboard and more examples are inc
     - Customers with 1 product are most common in all regions, but Spain has the highest proportion (1,221 or 49.28%).
     - Germany has a slightly higher proportion of customers with 3 or 4 products (96 and 24, respectively) compared to France and Spain.
 
+![image_alt](https://github.com/princeabdul99/bank_customer/blob/eff4deda4be66f249522cb0decfd6607ca9c0b1e/activities.jpg
+)  
+
 #### Customer Segmentation:
 - **High-Value Engaged Customers:**
     - **Demographics:** Predominantly German, male, aged 30-49.
