@@ -17,7 +17,7 @@ An interractive PowerBI dashboard can be accessed [here](https://app.powerbi.com
 The CSV data file consist of a table with total row count of 10,000 records.
 ![image_alt](https://github.com/princeabdul99/bank_customer/blob/d1725e6eebb55f4f382af8ac636ef6d9a4a72e00/Org%20Chart%20Flowchart%20Whiteboard%20in%20Violet%20Purple%20Adjacent%20Color%20Blocks%20Style%20(3).png)  
 
-Prior to begining the analysis, a variety of checks where conducted for quality control and familiarization with datasets. The raw data file can be found [here]()
+Prior to begining the analysis, a variety of checks where conducted for quality control and familiarization with datasets. The raw data file can be found [here](https://github.com/princeabdul99/bank_customer/blob/90f5c5fd915a49188df3e6d663bc1761371fc123/Bank%2BCustomer%2BChurn.zip)
 
 # Executive Summary
 
