@@ -32,35 +32,59 @@ Below is the overview page from the Power BI dashboard and more examples are inc
 
 
 #### Churn Attributes and Predictability:
-Churners:
 
-Active Customers: 735
-Inactive Customers: 1,302
-Median Credit Score: 646
-Median Account Balance: $109.35k
-Country Distribution:
-Spain: 20.27%
-France: 39.76%
-Germany: 39.96%
-Gender Distribution:
-Male: 44.08%
-Female: 55.92%
-Non-Churners:
+|                      | Chuner | Non-Churner |
+|----------------------|--------|-------------|
+| Active Customers     | 735    | 4416        |
+| Inactive Customers   | 1,302  | 3547        |
+| Median Credit Score  | 646    | 653         |
+| **Country Distribution**                    |
+| Spain                | 20.27% | 25.92%      |
+| France               | 39.76% | 52.79%      |
+| Germany              | 39.96% | 42.75%      |
+| **Gender Distribution**                     |
+| Male                 | 44.08% | 57.25%      |
+| Female               | 55.92% | 42.75%      |
 
-Active Customers: 4,416
-Inactive Customers: 3,547
-Median Credit Score: 653
-Median Account Balance: $92.07k
-Country Distribution:
-Spain: 25.92%
-France: 52.79%
-Germany: 21.29%
-Gender Distribution:
-Male: 57.25%
-Female: 42.75%
-
+##### Common Attributes Among Churners Compared to Non-Churners**
+- **Account Activity:**  
+  Churners have a higher proportion of inactive customers (63.92%) compared to non-churmers (44.54%)
+- **Account Balance:**  
+  Churners tend to have a higher median account balance ($109.35k) than non-churners ($290.07k).
+- **Credit Score:**  
+  Churners generally have slightly lower median credit scores (646) compare to non-churners (653).
+- **Country Distribution:**  
+  Churners are more evenly distributed across countries, with higher proportions in Germany (39.96%) and Spain (20.27%) compared to non-churners, who are predominantly from France (52.79%).
+- **Gender Distribution:**  
+  Churner include a higher percentage of famales (55.92%) compared to non-churners (42.75%)       
 
 
+#### Customer Demographics:
+- **Country Distribution:**
+  The majority of customers are from France (50.14%), followed by Germany (25.09%) and Spain (24.77%).
+- **Gender Proportion:**
+  Males make up a slightly larger portion of the customer base (54.57%) compared to females (45.43%).
+- **Age Distribution:**  
+      - The largest age group is 30-39 years, representing 44.46% of the customers.  
+      - The 40-49 age group follows, comprising 26.18% of the customers.  
+      - Younger customers (19 & below) make up only 0.49%, while older customers (60 & above) represent 5.26%.
+
+
+#### Regional Behavior Differences:
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
