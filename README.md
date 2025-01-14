@@ -48,6 +48,8 @@ Below is the overview page from the Power BI dashboard and more examples are inc
 | Male                 | 44.08% | 57.25%      |
 | Female               | 55.92% | 42.75%      |
 
+![image_alt](https://github.com/princeabdul99/bank_customer/blob/a68989dc02f76edd30e211e815592d8d198dd7f1/churn.jpg)  
+
 ##### Common Attributes Among Churners Compared to Non-Churners
 - **Account Activity:**  
   Churners have a higher proportion of inactive customers (63.92%) compared to non-churmers (44.54%)
