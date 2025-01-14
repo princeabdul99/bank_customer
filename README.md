@@ -23,7 +23,9 @@ Prior to begining the analysis, a variety of checks where conducted for quality 
 
 ### Overview Findings
 
-High Level content here ->
+The analysis highlights key regional differences in customer behavior and their correlation with churn. German customers have the highest average account balances ($119.73k) and a balanced gender ratio, making them ideal for premium services and wealth management strategies. Conversely, Spain faces challenges with the highest proportion of customers with zero account balances (1,199) and a significant low-income demographic (10.7%), requiring targeted financial inclusion initiatives. France leads in inactive customers (48.33%), signaling an opportunity for re-engagement campaigns. Across regions, tenure is stable, with most customers having 6+ years, offering a solid base for loyalty and retention programs.
+
+Churn analysis further reveals that churners have a higher proportion of inactive customers (63.92%) and slightly lower credit scores (646 vs. 653). Churners are more evenly distributed geographically, with higher concentrations in Germany (39.96%) and Spain (20.27%), compared to non-churners who are predominantly from France. Gender dynamics also play a role, as churners include more females (55.92%) than non-churners (42.75%).
 
 
 Below is the overview page from the Power BI dashboard and more examples are included throughout the report. The entire interractive dashboard can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiZGIxNDQ3ZjItZmZjMS00YzQzLWEzZTYtYTkwZWU1YmY0ZWFhIiwidCI6IjJkZTU1ZjVjLWQwMDMtNGQyYS04MjZiLWVhZDJhOWYyYjljZCJ9)
@@ -46,7 +48,7 @@ Below is the overview page from the Power BI dashboard and more examples are inc
 | Male                 | 44.08% | 57.25%      |
 | Female               | 55.92% | 42.75%      |
 
-##### Common Attributes Among Churners Compared to Non-Churners**
+##### Common Attributes Among Churners Compared to Non-Churners
 - **Account Activity:**  
   Churners have a higher proportion of inactive customers (63.92%) compared to non-churmers (44.54%)
 - **Account Balance:**  
@@ -71,12 +73,86 @@ Below is the overview page from the Power BI dashboard and more examples are inc
 
 
 #### Regional Behavior Differences:
+- **Account Balance:**
+    - German customers have significantly higher average account balances ($119.73k) compared to customers in France ($62.09k) and Spain ($61.82k).
+    - Spain has the highest proportion of customers with zero account balances (1,199), while Germany has none.
+
+- **Inactive Customers:**
+    - France has the highest number of inactive customers (2,423 or 48.33%), followed by Spain (1,165 or 47.04%) and Germany (1,261 or 50.25%).
+ 
+- **Gender Distribution:**
+    - Spain has the highest proportion of male customers (56.04%), while Germany has a more balanced gender ratio (male: 52.45%, female: 47.55%).
+ 
+- **Tenure:**
+    - Across all countries, the distribution of tenure is relatively similar, with the largest group having 6 years or more (France: 45.21%, Germany: 44.36%, Spain: 44.97%).
+
+- **Credit Score Ratings:**
+    - Spain has the highest proportion of customers with fair credit scores (34.03%), while Germany has a slightly higher proportion of customers with excellent credit scores (7.01%) compared to France (6.44%) and Spain (6.03%).
+
+- **Salary Ratings:**
+    - High-income customers dominate in all countries but are most prominent in Germany (50.9%), followed by Spain (49.98%) and France (49.76%).
+    - Spain has the highest proportion of low-income customers (10.7%).
+
+- **Product Engagement:**
+    - Customers with 1 product are most common in all regions, but Spain has the highest proportion (1,221 or 49.28%).
+    - Germany has a slightly higher proportion of customers with 3 or 4 products (96 and 24, respectively) compared to France and Spain.
+
+#### Customer Segmentation:
+- **High-Value Engaged Customers:**
+    - **Demographics:** Predominantly German, male, aged 30-49.
+    - **Behavioral Patterns:**
+      - High account balances (average: $119.73k).
+      - High income (50.9% are high-income earners).
+      - More likely to have multiple products (2+ products: 44%).
+      - Low rate of zero account balances (0%).
 
 
+- **Moderate-Value Loyal Customers:**
+    - **Demographics:** French, evenly distributed across genders, aged 30-49.
+    - **Behavioral Patterns:**
+      - Average account balance ($62.09k).
+      - High income (49.76% are high-income earners).
+      - Predominantly engaged with 1-2 products (97.28%).
+      - Balanced tenure distribution, with the majority having 6+ years (45.21%).
+      - Higher inactivity rate (48.33%).
 
 
+- **Low-Value Passive Customers:**
+    - **Demographics:** Spanish, male-dominant, aged 20-39.
+    - **Behavioral Patterns:**
+      - Lower account balances ($61.82k).
+      - High prevalence of zero account balances (1,199 or 48.41%).
+      - Predominantly engaged with 1 product (49.28%).
+      - A significant portion falls under low or mid-income categories (24.83%).
 
 
+- **At-Risk Inactive Customers:**
+    - **Demographics:** Spread across all regions, predominantly female, aged 40-59.
+    - **Behavioral Patterns:**
+      - High inactivity rates, particularly in France (48.33%) and Spain (47.04%).
+      - Lower product engagement (1 product).
+      - Higher proportion of fair and poor credit scores (France: 56.66%, Spain: 57.12%).
+
+
+- **High-Potential Young Customers:**
+    - **Demographics:** Aged 19-29, primarily male, balanced across all regions.
+    - **Behavioral Patterns:**
+      - Moderate account balances.
+      - Lower tenure (1 year or less: ~14%).
+      - Minimal product engagement (1 product).
+      - Opportunity to increase engagement with targeted offers.
+
+
+### Recommendations:
+Based on the unconvered insights, the following recommendations have been provided;
+- Focus on re-engagement campaigns for inactive customers. Offer personalized incentives or reminders to encourage account activity and interaction with services.
+- Provide credit score improvement resources or tailored financial products for customers with lower credit scores to improve their financial stability and loyalty.
+- Develop region-specific retention strategies. For instance, analyze customer needs and preferences in Germany and Spain to design targeted offers and services.
+-  Investigate gender-specific needs and preferences. For example, assess the accessibility and inclusivity of services for female customers and adapt marketing efforts to resonate more with this demographic.
+
+### Conclusion:
+To address these findings, the organization should adopt region-specific retention strategies, such as re-engagement campaigns for inactive customers in France and Germany, financial education initiatives in Spain, and premium service promotions in Germany. By aligning products and engagement efforts with regional and churn-specific insights, the company can strengthen customer relationships, reduce churn, and drive sustained growth.
+  
 
 
 
